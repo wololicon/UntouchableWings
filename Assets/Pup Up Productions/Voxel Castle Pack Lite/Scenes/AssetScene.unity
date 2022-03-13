@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.19714749, g: 0.271927, b: 0.34481588, a: 1}
+  m_IndirectSpecularColor: {r: 0.46780932, g: 0.5442059, b: 0.60777736, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2518,11 +2518,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreasureChest
       objectReference: {fileID: 0}
-    - target: {fileID: 1794394220336377047, guid: 77e463cbe9a404a8bb08e8f840e96f6c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2371438783120193469, guid: 77e463cbe9a404a8bb08e8f840e96f6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2576,16 +2571,6 @@ PrefabInstance:
     - target: {fileID: 2371438783120193469, guid: 77e463cbe9a404a8bb08e8f840e96f6c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3868904742807991775, guid: 77e463cbe9a404a8bb08e8f840e96f6c,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7dd7e6bddd79a487697753bcbb0475cc, type: 2}
-    - target: {fileID: 5097538719386738739, guid: 77e463cbe9a404a8bb08e8f840e96f6c,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

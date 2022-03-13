@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.001
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.8820755, g: 0.92201763, b: 1, a: 1}
-  m_AmbientEquatorColor: {r: 0.8726415, g: 0.99633414, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0.33388218, g: 0.41441205, b: 0.5754717, a: 1}
+  m_AmbientEquatorColor: {r: 0.252314, g: 0.27073693, b: 0.2830189, a: 1}
   m_AmbientGroundColor: {r: 0.1792453, g: 0.15144975, b: 0.13274297, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 123ddbf8cf77c4aafad4fd0c46ea1b0a, type: 2}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 741149852}
-  m_IndirectSpecularColor: {r: 0.19895941, g: 0.2698944, b: 0.32530096, a: 1}
+  m_IndirectSpecularColor: {r: 0.47010767, g: 0.54284316, b: 0.5910126, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -307,7 +307,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
@@ -364,13 +364,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741149851}
-  m_LocalRotation: {x: -0.077194415, y: 0.2270441, z: -0.7363217, w: -0.63271034}
+  m_LocalRotation: {x: -0.33079475, y: -0.53160995, z: 0.66234815, w: 0.41141307}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 25.597002, y: -371.1, z: 96.12701}
+  m_LocalEulerAnglesHint: {x: 25.597002, y: -76.147, z: 96.12701}
 --- !u!1001 &789346348
 PrefabInstance:
   m_ObjectHideFlags: 0
